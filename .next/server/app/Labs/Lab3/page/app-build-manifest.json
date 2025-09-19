@@ -1,0 +1,20 @@
+{
+  "pages": {
+    "/Labs/Lab3/page": [
+      "static/chunks/164c2_next_dist_4354162c._.js",
+      "static/chunks/Code_webdev_kambaz-next-js_app_favicon_ico_mjs_6a5b29a7._.js",
+      "static/chunks/[next]_internal_font_google_be385945._.css",
+      "static/chunks/Code_webdev_kambaz-next-js_app_layout_tsx_dd381dd0._.js",
+      "static/chunks/164c2_next_dist_client_components_builtin_global-error_cd40f17c.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_ed5bb6f2._.js",
+      "static/chunks/164c2_next_dist_compiled_react-dom_918bb1a8._.js",
+      "static/chunks/164c2_next_dist_compiled_next-devtools_index_0ffdee56.js",
+      "static/chunks/164c2_next_dist_compiled_576c14a1._.js",
+      "static/chunks/164c2_next_dist_client_43b4314f._.js",
+      "static/chunks/164c2_next_dist_45a1826a._.js",
+      "static/chunks/164c2_@swc_helpers_cjs_83948de3._.js",
+      "static/chunks/Code_webdev_kambaz-next-js_a0ff3932._.js",
+      "static/chunks/turbopack-Code_webdev_kambaz-next-js_4587c12e._.js"
+    ]
+  }
+}

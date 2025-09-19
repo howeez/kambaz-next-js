@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///Users/ezrahowe/Code/webdev/kambaz-next-js/app/%28Kambaz%29/Account/Signin/page.tsx"],"sourcesContent":["import Link from \"next/link\";\nexport default function Signin() {\n return (\n   <div id=\"wd-signin-screen\">\n     <h3>Sign in</h3>\n     <input placeholder=\"username\" className=\"wd-username\" /> <br />\n     <input placeholder=\"password\" type=\"password\" className=\"wd-password\" /> <br />\n     <Link id=\"wd-signin-btn\" href=\"/Dashboard\"> Sign in </Link> <br />\n      <Link id=\"wd-signup-link\" href=\"Signup\"> Sign up </Link>\n   </div>\n);}\n"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACvB,qBACE,wRAAC;QAAI,IAAG;;0BACN,wRAAC;0BAAG;;;;;;0BACJ,wRAAC;gBAAM,aAAY;gBAAW,WAAU;;;;;;YAAgB;0BAAC,wRAAC;;;;;0BAC1D,wRAAC;gBAAM,aAAY;gBAAW,MAAK;gBAAW,WAAU;;;;;;YAAgB;0BAAC,wRAAC;;;;;0BAC1E,wRAAC,iNAAI;gBAAC,IAAG;gBAAgB,MAAK;0BAAa;;;;;;YAAgB;0BAAC,wRAAC;;;;;0BAC5D,wRAAC,iNAAI;gBAAC,IAAG;gBAAiB,MAAK;0BAAS;;;;;;;;;;;;AAE5C","debugId":null}}]
+}
