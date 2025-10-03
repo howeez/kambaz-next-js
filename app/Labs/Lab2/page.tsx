@@ -45,7 +45,7 @@ export default function Lab2() {
       <div id="wd-css-class-selectors">
         <h3>Class selectors</h3>
         <p className="wd-class-selector">
-          Instead of using IDs to refer to elements, you can use an element's CLASS attribute
+          Instead of using IDs to refer to elements, you can use an element&apos;s CLASS attribute
         </p>
         <h4 className="wd-class-selector">
           This heading has same style as paragraph above
@@ -59,7 +59,7 @@ export default function Lab2() {
             Selectors can be combined to refer elements in particular
             places in the document
             <p className="wd-selector-3">
-              This paragraph's red background is referenced as
+              This paragraph&apos;s red background is referenced as
               <br />
               .selector-2 .selector3<br />
               meaning the descendant of some ancestor.<br />
