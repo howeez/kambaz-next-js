@@ -8,6 +8,8 @@ R.c("server/chunks/ssr/164c2_next_dist_client_components_builtin_forbidden_d5136
 R.c("server/chunks/ssr/164c2_next_dist_client_components_builtin_unauthorized_49eace83.js")
 R.c("server/chunks/ssr/164c2_next_dist_client_components_builtin_global-error_25164d5a.js")
 R.c("server/chunks/ssr/Code_webdev_kambaz-next-js_09503a8d._.js")
+R.c("server/chunks/ssr/164c2_react-icons_fa_index_mjs_c9fa1fca._.js")
+R.c("server/chunks/ssr/164c2_react-icons_lib_0481e08c._.js")
 R.c("server/chunks/ssr/Code_webdev_kambaz-next-js_app_(Kambaz)_Courses_[cid]_39c70a1f._.js")
 R.c("server/chunks/ssr/164c2_next_dist_22362321._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__5baf8761._.js")
