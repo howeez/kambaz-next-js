@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/ezrahowe/Code/webdev/kambaz-next-js/app/Labs/Lab2/AddBookItem.tsx"],"sourcesContent":["\"use client\";\n\nimport { ListGroupItem } from \"react-bootstrap\";\n\nexport default function AddBookItem() {\n    return (\n        <ListGroupItem action onClick={() => alert(\"New book added\")}>\n            Add another book\n        </ListGroupItem>\n    );\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACpB,qBACI,uOAAC,oQAAa;QAAC,MAAM;QAAC,SAAS,IAAM,MAAM;kBAAmB;;;;;;AAItE;KANwB","debugId":null}}]
+}

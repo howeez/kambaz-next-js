@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/ezrahowe/Code/webdev/kambaz-next-js/app/Labs/Lab2/ForegroundColors.tsx"],"sourcesContent":["export default function ForegroundColors() {\n  return (\n<div id=\"wd-css-colors\">\n  <h2>Colors</h2>\n  <h3 className=\"wd-fg-color-blue\">Foreground color</h3>\n  <p className=\"wd-fg-color-red\">\n    The text in this paragraph is red but\n    <span className=\"wd-fg-color-green\">this text is green</span>\n  </p>\n</div>);}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACF,wRAAC;QAAI,IAAG;;0BACN,wRAAC;0BAAG;;;;;;0BACJ,wRAAC;gBAAG,WAAU;0BAAmB;;;;;;0BACjC,wRAAC;gBAAE,WAAU;;oBAAkB;kCAE7B,wRAAC;wBAAK,WAAU;kCAAoB;;;;;;;;;;;;;;;;;;AAEhC","debugId":null}}]
+}
