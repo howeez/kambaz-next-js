@@ -1,0 +1,178 @@
+[
+  {
+    "_id": "a101",
+    "title": "A1 - React Intro",
+    "description": "Introduction to React components and JSX.",
+    "course": "1234",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-01",
+    "availableFrom": "2025-01-15",
+    "availableUntil": "2025-02-10"
+  },
+  {
+    "_id": "a102",
+    "title": "A2 - State & Props",
+    "description": "Manage component state and pass data via props.",
+    "course": "1234",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-15",
+    "availableFrom": "2025-02-01",
+    "availableUntil": "2025-02-20"
+  },
+  {
+    "_id": "a201",
+    "title": "A1 - HTML & CSS",
+    "description": "Build a responsive page using HTML and CSS.",
+    "course": "4550",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-05",
+    "availableFrom": "2025-01-20",
+    "availableUntil": "2025-02-10"
+  },
+  {
+    "_id": "a202",
+    "title": "A2 - Bootstrap Layouts",
+    "description": "Use Bootstrap to create responsive grid layouts.",
+    "course": "4550",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-20",
+    "availableFrom": "2025-02-06",
+    "availableUntil": "2025-02-25"
+  },
+  {
+    "_id": "a301",
+    "title": "A1 - Threat Modeling",
+    "description": "Identify potential threats in a system design.",
+    "course": "4400",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-08",
+    "availableFrom": "2025-01-20",
+    "availableUntil": "2025-02-15"
+  },
+  {
+    "_id": "a302",
+    "title": "A2 - Secure Coding",
+    "description": "Apply secure coding principles to a given problem.",
+    "course": "4400",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-22",
+    "availableFrom": "2025-02-10",
+    "availableUntil": "2025-02-28"
+  },
+  {
+    "_id": "a401",
+    "title": "A1 - Speech Outline",
+    "description": "Prepare an outline for your first speech.",
+    "course": "1320",
+    "points": 50,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-01-30",
+    "availableFrom": "2025-01-15",
+    "availableUntil": "2025-02-02"
+  },
+  {
+    "_id": "a402",
+    "title": "A2 - Persuasive Speech",
+    "description": "Deliver a persuasive speech in class.",
+    "course": "1320",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-20",
+    "availableFrom": "2025-02-01",
+    "availableUntil": "2025-02-25"
+  },
+  {
+    "_id": "a501",
+    "title": "A1 - WWI Causes",
+    "description": "Analyze the causes of World War I.",
+    "course": "3500",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-05",
+    "availableFrom": "2025-01-15",
+    "availableUntil": "2025-02-12"
+  },
+  {
+    "_id": "a502",
+    "title": "A2 - Cold War Timeline",
+    "description": "Create a timeline of key Cold War events.",
+    "course": "3500",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-25",
+    "availableFrom": "2025-02-10",
+    "availableUntil": "2025-03-01"
+  },
+  {
+    "_id": "a601",
+    "title": "A1 - Renaissance Art",
+    "description": "Compare two works of Renaissance art.",
+    "course": "2200",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-10",
+    "availableFrom": "2025-01-20",
+    "availableUntil": "2025-02-15"
+  },
+  {
+    "_id": "a602",
+    "title": "A2 - Museum Visit Report",
+    "description": "Write a report based on a local art museum visit.",
+    "course": "2200",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-03-05",
+    "availableFrom": "2025-02-20",
+    "availableUntil": "2025-03-10"
+  },
+  {
+    "_id": "a701",
+    "title": "A1 - Sorting Algorithms",
+    "description": "Implement and analyze sorting algorithms.",
+    "course": "4120",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-12",
+    "availableFrom": "2025-01-22",
+    "availableUntil": "2025-02-18"
+  },
+  {
+    "_id": "a702",
+    "title": "A2 - Recursion Problems",
+    "description": "Solve algorithmic problems using recursion.",
+    "course": "4120",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-28",
+    "availableFrom": "2025-02-15",
+    "availableUntil": "2025-03-03"
+  },
+  {
+    "_id": "a801",
+    "title": "A1 - Game Concept",
+    "description": "Pitch your original game idea and genre.",
+    "course": "4850",
+    "points": 50,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-01-28",
+    "availableFrom": "2025-01-15",
+    "availableUntil": "2025-02-01"
+  },
+  {
+    "_id": "a802",
+    "title": "A2 - Level Design",
+    "description": "Design a playable level using Unity or Unreal.",
+    "course": "4850",
+    "points": 100,
+    "group": "ASSIGNMENTS",
+    "dueDate": "2025-02-25",
+    "availableFrom": "2025-02-10",
+    "availableUntil": "2025-03-01"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "1234",
+    "name": "React JS",
+    "number": "CS1234",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "CS",
+    "credits": 4,
+    "description": "Full Stack software developer",
+    "image": "/images/reactjs.jpg"
+  },
+  {
+    "_id": "4550",
+    "name": "Web Development",
+    "number": "CS4550",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "CS",
+    "credits": 4,
+    "description": "WebDev",
+    "image": "/images/webdev.jpg"
+  },
+  {
+    "_id": "4400",
+    "name": "Systems Security",
+    "number": "CS4400",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "CS",
+    "credits": 3,
+    "description": "Systems Security",
+    "image": "/images/syssec.jpg"
+  },
+  {
+    "_id": "1320",
+    "name": "Public Speaking",
+    "number": "COMM1320",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "COMM",
+    "credits": 3,
+    "description": "Public Speaking",
+    "image": "/images/publicspeaking.jpg"
+  },
+  {
+    "_id": "3500",
+    "name": "Modern Conflicts",
+    "number": "HIST3500",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "HIST",
+    "credits": 3,
+    "description": "Modern Conflicts",
+    "image": "/images/ModernConflicts.jpg"
+  },
+  {
+    "_id": "2200",
+    "name": "Art History",
+    "number": "HIST2200",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "HIST",
+    "credits": 3,
+    "description": "Art History",
+    "image": "/images/arthistory.jpg"
+  },
+  {
+    "_id": "4120",
+    "name": "Algorithms",
+    "number": "CS4120",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "CS",
+    "credits": 4,
+    "description": "Algorithms",
+    "image": "/images/algo.jpg"
+  },
+  {
+    "_id": "4850",
+    "name": "Game Design",
+    "number": "CS4850",
+    "startDate": "2025-01-15",
+    "endDate": "2025-05-10",
+    "department": "CS",
+    "credits": 4,
+    "description": "Game Design",
+    "image": "/images/GameDesign.jpg"
+  }
+]
