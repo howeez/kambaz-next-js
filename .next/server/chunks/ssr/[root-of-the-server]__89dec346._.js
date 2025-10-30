@@ -78,7 +78,26 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$
 ;
 ;
 function Dashboard() {
-    const courses = __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$app$2f28$Kambaz$292f$Database$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].courses;
+    const [courses, setCourses] = useState(__TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$app$2f28$Kambaz$292f$Database$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].courses);
+    const course = {
+        _id: "0",
+        name: "New Course",
+        number: "New Number",
+        startDate: "2023-09-10",
+        endDate: "2023-12-15",
+        image: "/images/reactjs.jpg",
+        description: "New Description"
+    };
+    const addNewCourse = ()=>{
+        const newCourse = {
+            ...course,
+            _id: uuidv4()
+        };
+        setCourses([
+            ...courses,
+            newCourse
+        ]);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "wd-dashboard",
         children: [
@@ -87,13 +106,37 @@ function Dashboard() {
                 children: "Dashboard"
             }, void 0, false, {
                 fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                lineNumber: 10,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {}, void 0, false, {
                 fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                lineNumber: 11,
+                lineNumber: 21,
                 columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                children: [
+                    "New Course",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "btn btn-primary float-end",
+                        id: "wd-add-new-course-click",
+                        onClick: addNewCourse,
+                        children: " Add "
+                    }, void 0, false, {
+                        fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {}, void 0, false, {
+                fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
+                lineNumber: 26,
+                columnNumber: 12
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 id: "wd-dashboard-published",
@@ -104,12 +147,12 @@ function Dashboard() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                lineNumber: 12,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {}, void 0, false, {
                 fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                lineNumber: 13,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -136,7 +179,7 @@ function Dashboard() {
                                             alt: `${course.name} thumbnail`
                                         }, void 0, false, {
                                             fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                            lineNumber: 22,
+                                            lineNumber: 37,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardBody$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__CardBody$3e$__["CardBody"], {
@@ -151,7 +194,7 @@ function Dashboard() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 44,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardText$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__CardText$3e$__["CardText"], {
@@ -162,7 +205,7 @@ function Dashboard() {
                                                     children: course.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                                    lineNumber: 32,
+                                                    lineNumber: 47,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$webdev$2f$kambaz$2d$next$2d$js$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -170,47 +213,50 @@ function Dashboard() {
                                                     children: "Go"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                                    lineNumber: 37,
+                                                    lineNumber: 52,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 43,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                    lineNumber: 19,
+                                    lineNumber: 34,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                                lineNumber: 18,
+                                lineNumber: 33,
                                 columnNumber: 15
                             }, this)
                         }, course._id, false, {
                             fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                            lineNumber: 17,
+                            lineNumber: 32,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                    lineNumber: 15,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-                lineNumber: 14,
+                lineNumber: 29,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx",
-        lineNumber: 9,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
+}
+function uuidv4() {
+    throw new Error("Function not implemented.");
 }
 }),
 "[project]/Code/webdev/kambaz-next-js/app/(Kambaz)/Dashboard/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
