@@ -180,6 +180,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/Labs/Lab4/ReduxExamples/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/Labs/Lab4/ReduxExamples">> = Specific
+  const handler = {} as typeof import("../../app/Labs/Lab4/ReduxExamples/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/Labs/Lab4/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/Labs/Lab4">> = Specific
+  const handler = {} as typeof import("../../app/Labs/Lab4/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/Labs/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/Labs">> = Specific

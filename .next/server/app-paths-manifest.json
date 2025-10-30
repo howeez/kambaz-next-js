@@ -1,8 +1,5 @@
 {
-  "/(Kambaz)/Courses/[cid]/Assignments/page": "app/(Kambaz)/Courses/[cid]/Assignments/page.js",
-  "/(Kambaz)/Courses/[cid]/Home/page": "app/(Kambaz)/Courses/[cid]/Home/page.js",
-  "/(Kambaz)/Courses/[cid]/Modules/page": "app/(Kambaz)/Courses/[cid]/Modules/page.js",
-  "/(Kambaz)/Courses/[cid]/People/Table/page": "app/(Kambaz)/Courses/[cid]/People/Table/page.js",
-  "/(Kambaz)/Dashboard/page": "app/(Kambaz)/Dashboard/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/Labs/Lab4/page": "app/Labs/Lab4/page.js",
+  "/Labs/page": "app/Labs/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
