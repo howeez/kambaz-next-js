@@ -13,7 +13,7 @@ export default function Dashboard() {
   const courses = useSelector((state: any) => state.coursesReducer.courses);
   const enrollments = useSelector((state: any) => state.enrollmentsReducer.enrollments ?? []);
 
-  if (!currentUser) {<li>No User.</li>}
+  if (!currentUser) {return <div>No User.</div>}
 
   const [showAll, setShowAll] = useState(false);
   const [course, setCourse] = useState<any>({
